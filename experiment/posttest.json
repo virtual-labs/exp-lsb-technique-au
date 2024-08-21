@@ -2,38 +2,39 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "How does the LSB technique affect the visual quality of an image after hiding data?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "It significantly distorts the image",
+        "b": "It slightly alters the image, but changes are usually imperceptible",
+        "c": "It improves the image quality",
+        "d": "It has no effect on the image at all"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "The LSB technique does not significantly distort the image.",
+        "b": "Correct. The LSB technique slightly alters the image by changing the least significant bits, but these changes are typically imperceptible to the human eye. Learn more <a href='https://www.sciencedirect.com/science/article/abs/pii/S003132031730239X'>here</a>.",
+        "c": "Hiding data does not improve image quality.",
+        "d": "There is a small effect, but it's usually not noticeable."
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What is the key advantage of using the LSB technique in Steganography?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "It allows for large amounts of data to be hidden without detection",
+        "b": "It makes the hidden data impossible to retrieve",
+        "c": "It can compress data before hiding it",
+        "d": "It provides a high level of encryption for the hidden data"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct. The LSB technique allows small amounts of data to be hidden within an image without significantly altering the image, making it difficult to detect. Learn more <a href='https://www.cse.wustl.edu/~jain/cse571-09/ftp/stegano/index.html'>here</a>.",
+        "b": "The hidden data can be retrieved with the correct technique.",
+        "c": "LSB does not compress data, it hides it.",
+        "d": "LSB is not an encryption technique, it is a method of hiding data."
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
     }
+    
   ]
 }
