@@ -51,6 +51,57 @@
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+    {
+      "question": "Why is the LSB method effective for hiding information in images?",
+      "answers": {
+        "a": "Because it uses image compression to encrypt data",
+        "b": "Because it hides data in high-resolution pixels only",
+        "c": "Because changes to the least significant bits do not visibly affect the image",
+        "d": "Because it deletes unused pixels to store information"
+      },
+      "explanations": {
+        "a": "LSB does not involve compression.",
+        "b": "The method works for any resolution, not just high-resolution.",
+        "c": "Correct. Changes to the least significant bits are usually imperceptible to the human eye.",
+        "d": "No pixels are deleted in the process."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What can be hidden using LSB steganography?",
+      "answers": {
+        "a": "Only text files",
+        "b": "Only images",
+        "c": "Various data types such as text, compressed files, or executables",
+        "d": "Only audio files"
+      },
+      "explanations": {
+        "a": "LSB steganography is not limited to text files.",
+        "b": "Images are used as carriers, not the data being hidden.",
+        "c": "Correct. A wide range of data types can be hidden using the LSB technique.",
+        "d": "Audio files can be carriers but not the only data involved."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is a known malware that used steganography for hiding information?",
+      "answers": {
+        "a": "Stuxnet",
+        "b": "Vawtrak",
+        "c": "Wannacry",
+        "d": "Petya"
+      },
+      "explanations": {
+        "a": "Stuxnet used other techniques but not steganography.",
+        "b": "Correct. Vawtrak is a known example that used steganography to hide C2 server addresses.",
+        "c": "Wannacry used ransomware techniques, not steganography.",
+        "d": "Petya is also ransomware-focused without using steganography."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
     }
   ]
 }
