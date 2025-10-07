@@ -1,0 +1,107 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "How does the LSB technique affect the visual quality of an image after hiding data?",
+      "answers": {
+        "a": "It significantly distorts the image",
+        "b": "It slightly alters the image, but changes are usually imperceptible",
+        "c": "It improves the image quality",
+        "d": "It has no effect on the image at all"
+      },
+      "explanations": {
+        "a": "The LSB technique does not significantly distort the image.",
+        "b": "Correct. The LSB technique slightly alters the image by changing the least significant bits, but these changes are typically imperceptible to the human eye. Learn more <a href='https://www.sciencedirect.com/science/article/abs/pii/S003132031730239X'>here</a>.",
+        "c": "Hiding data does not improve image quality.",
+        "d": "There is a small effect, but it's usually not noticeable."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is the key advantage of using the LSB technique in Steganography?",
+      "answers": {
+        "a": "It allows for large amounts of data to be hidden without detection",
+        "b": "It makes the hidden data impossible to retrieve",
+        "c": "It can compress data before hiding it",
+        "d": "It provides a high level of encryption for the hidden data"
+      },
+      "explanations": {
+        "a": "Correct. The LSB technique allows small amounts of data to be hidden within an image without significantly altering the image, making it difficult to detect. Learn more <a href='https://www.cse.wustl.edu/~jain/cse571-09/ftp/stegano/index.html'>here</a>.",
+        "b": "The hidden data can be retrieved with the correct technique.",
+        "c": "LSB does not compress data, it hides it.",
+        "d": "LSB is not an encryption technique, it is a method of hiding data."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which of the following is a major limitation of LSB-based steganography?",
+      "answers": {
+        "a": "It supports only text data",
+        "b": "It is vulnerable to image compression and transformations",
+        "c": "It cannot be used with high-resolution images",
+        "d": "It always requires a secret key for hiding data"
+      },
+      "explanations": {
+        "a": "LSB can hide any binary data, not just text.",
+        "b": "Correct. Image compression or format conversion often modifies the least significant bits, which can corrupt hidden data. Learn more <a href='https://ieeexplore.ieee.org/document/9512357'>here</a>.",
+        "c": "It works well on both low and high-resolution images.",
+        "d": "A secret key is optional and not a default requirement."
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Which of these is a distinguishing factor between Steganography and Cryptography?",
+      "answers": {
+        "a": "Steganography hides the existence of data, while Cryptography hides the content",
+        "b": "Steganography uses stronger encryption algorithms than Cryptography",
+        "c": "Cryptography is less secure than Steganography",
+        "d": "Steganography works only on images, whereas Cryptography works on all files"
+      },
+      "explanations": {
+        "a": "Correct. Steganography conceals the fact that data is present, while Cryptography focuses on encrypting the content. Learn more <a href='https://ieeexplore.ieee.org/document/8369862'>here</a>.",
+        "b": "Steganography does not inherently use encryption.",
+        "c": "Security depends on implementation, not the method itself.",
+        "d": "Steganography is not limited to images; it can work with audio, video, and text as well."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which technique enhances security when using LSB-based steganography?",
+      "answers": {
+        "a": "Encrypting the data before embedding",
+        "b": "Using larger image sizes only",
+        "c": "Converting images to JPEG before hiding data",
+        "d": "Avoiding the use of any randomization techniques"
+      },
+      "explanations": {
+        "a": "Correct. Encrypting the data before embedding adds an extra security layer, making it harder to detect and extract hidden content. Read more <a href='https://www.researchgate.net/publication/350123456'>here</a>.",
+        "b": "Image size alone does not improve security.",
+        "c": "JPEG compression may destroy LSB data due to lossy encoding.",
+        "d": "Randomization actually strengthens security, not weakens it."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "In image steganography, which file formats are generally preferred for LSB embedding?",
+      "answers": {
+        "a": "JPEG and BMP",
+        "b": "PNG and BMP",
+        "c": "GIF and JPEG",
+        "d": "PDF and DOCX"
+      },
+      "explanations": {
+        "a": "JPEG uses lossy compression, which often destroys hidden data.",
+        "b": "Correct. PNG and BMP are preferred because they use lossless compression, preserving hidden bits effectively. Learn more <a href='https://www.researchgate.net/publication/356982147'>here</a>.",
+        "c": "GIF and JPEG are not reliable for LSB embedding.",
+        "d": "PDF and DOCX are not suitable for image-based steganography."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    }
+  ]
+}
