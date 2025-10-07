@@ -3,7 +3,7 @@
 | <b>Discipline  | <b>Computer Science and Engineering      |
 | :------------- | :--------------------------------------- |
 | <b> Lab        | <b> Computer Forensics           |
-| <b> Experiment | <b> Experiment on data hiding and unhiding: LSB technique |
+| <b> Experiment | <b> Data hiding and unhiding: LSB technique |
 
 ### About the Experiment
 

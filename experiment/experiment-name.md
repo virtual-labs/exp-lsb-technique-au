@@ -1,1 +1,1 @@
- <h2>Experiment on data hiding and unhiding: LSB technique</h2>
+ <h2> Data hiding and unhiding: LSB technique</h2>
