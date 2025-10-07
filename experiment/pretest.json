@@ -2,37 +2,105 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the primary purpose of Steganography?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To encrypt data for secure communication",
+        "b": "To compress data to save space",
+        "c": "To hide information within other files or media",
+        "d": "To back up data on cloud storage"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Encryption is related to cryptography, not steganography.",
+        "b": "Compression reduces file size but is not the primary goal of steganography.",
+        "c": "Correct. Steganography is used to conceal information within other files or media, making it difficult to detect.",
+        "d": "Backing up data is not related to steganography."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What does the Least Significant Bit (LSB) technique involve?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Replacing the most significant bit of each pixel with hidden data",
+        "b": "Replacing the least significant bit of each pixel with hidden data",
+        "c": "Encrypting the entire image file",
+        "d": "Compressing the hidden data before embedding it"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "The LSB technique involves the least significant bit, not the most significant bit.",
+        "b": "Correct. The LSB technique hides information by replacing the least significant bit of each pixel with the hidden data.",
+        "c": "The LSB technique is not about encrypting the image file.",
+        "d": "Compression is not necessary for the LSB technique."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which type of media file is most commonly used for Steganography?",
+      "answers": {
+        "a": "Text files",
+        "b": "Executable files",
+        "c": "Media files like images, videos, or audio files",
+        "d": "Database files"
+      },
+      "explanations": {
+        "a": "Text files are not commonly used for steganography.",
+        "b": "Executable files can contain hidden data, but media files are more common for steganography.",
+        "c": "Correct. Media files such as images, videos, and audio files are often used in steganography because they can hide data without noticeable changes.",
+        "d": "Database files are not typically used for steganography."
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why is the LSB method effective for hiding information in images?",
+      "answers": {
+        "a": "Because it uses image compression to encrypt data",
+        "b": "Because it hides data in high-resolution pixels only",
+        "c": "Because changes to the least significant bits do not visibly affect the image",
+        "d": "Because it deletes unused pixels to store information"
+      },
+      "explanations": {
+        "a": "LSB does not involve compression.",
+        "b": "The method works for any resolution, not just high-resolution.",
+        "c": "Correct. Changes to the least significant bits are usually imperceptible to the human eye.",
+        "d": "No pixels are deleted in the process."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What can be hidden using LSB steganography?",
+      "answers": {
+        "a": "Only text files",
+        "b": "Only images",
+        "c": "Various data types such as text, compressed files, or executables",
+        "d": "Only audio files"
+      },
+      "explanations": {
+        "a": "LSB steganography is not limited to text files.",
+        "b": "Images are used as carriers, not the data being hidden.",
+        "c": "Correct. A wide range of data types can be hidden using the LSB technique.",
+        "d": "Audio files can be carriers but not the only data involved."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is a known malware that used steganography for hiding information?",
+      "answers": {
+        "a": "Stuxnet",
+        "b": "Vawtrak",
+        "c": "Wannacry",
+        "d": "Petya"
+      },
+      "explanations": {
+        "a": "Stuxnet used other techniques but not steganography.",
+        "b": "Correct. Vawtrak is a known example that used steganography to hide C2 server addresses.",
+        "c": "Wannacry used ransomware techniques, not steganography.",
+        "d": "Petya is also ransomware-focused without using steganography."
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
