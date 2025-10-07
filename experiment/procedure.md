@@ -1,4 +1,4 @@
-### Procedure 
+
 
 The Least Significant Bit (LSB) technique is a method used in steganography to hide data within an image by modifying the least significant bits of the image's pixel values. Here's a brief explanation of how to hide and unhide data using the LSB technique in four lines:
 

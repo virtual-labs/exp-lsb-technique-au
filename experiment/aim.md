@@ -1,4 +1,4 @@
-<h3>Aim of the experiment</h3>
+
 <p> The aim of this experiment is to explore the fundamentals of steganography using the Least Significant Bit (LSB) technique. Participants will learn how to hide and retrieve both text and files within image files by manipulating the least significant bits of pixel data. The experiment also demonstrates how the same technique is leveraged in cyberattacks—specifically, how malware may use LSB-based steganography to stealthily communicate with command-and-control (C2) servers and deploy payloads. This hands-on activity provides a practical understanding of how data can be covertly embedded within benign-looking images, offering insight into both defensive and offensive applications in cybersecurity. </p>
 
 ####  Applications
