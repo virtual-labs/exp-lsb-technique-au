@@ -1,4 +1,4 @@
-<h3>Theory</h3>
+
 
 <u><h4>Introduction to Steganography</h4></u>
 
